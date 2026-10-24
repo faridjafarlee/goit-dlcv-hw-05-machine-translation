@@ -1,0 +1,43 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Datasets
+data
+datasets
+
+# Model weights and checkpoints
+checkpoints/
+saved_models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+*.bin
+
+# Training caches
+catboost_info/
+*.pkl
+*.parquet
+*.npz
+
+# Archives
+*.zip
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+kaggle.json
